@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub Agro Chemicals — Premium Agricultural Solutions</title>
+    <meta name="description"
+        content="Hub Agro Chemicals provides modern agrochemicals and nutrients tailored for resilient harvests and sustainable farming.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <div class="grain-overlay"></div>
+    <div class="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container container">
+            <a href="#home" class="brand">
+                <span class="logo-icon">H</span>
+                <span class="logo-text">Hub Agro<span> Chemicals</span></span>
+            </a>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#innovation" class="nav-link">Innovation</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="https://wa.me/923312407096" class="btn btn-outline" target="_blank">Get Support</a>
+                <button class="menu-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="overlay"></div>
+            <img src="images/hero_agro_field.png" alt="Premium Agriculture Hero" class="hero-video">
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge-premium">
+                    <span class="dot"></span>
+                    Bio-Dynamic Precision Agriculture
+                </div>
+                <h1 class="reveal">Precision Chemistry. <br><span>Boundless Growth.</span></h1>
+                <p class="hero-urdu urdu" lang="ur" dir="rtl">حب ایگرو کمیکلز — جدید زرعی حل، پائیدار فصلیں</p>
+                <p class="hero-sub fade-in">Harnessing the power of molecular science to deliver high-performance
+                    agrochemicals that ensure food security and farming prosperity.</p>
+                <div class="hero-btns fade-in">
+                    <a href="#products" class="btn btn-primary magnetic">Explore Science</a>
+                    <a href="#contact" class="btn btn-glass magnetic">Get Consultation</a>
+                </div>
+            </div>
+
+            <!-- Hero Floating Cards -->
+            <div class="hero-visuals">
+                <div class="floating-card c1">
+                    <div class="card-icon">🧪</div>
+                    <div class="card-info">
+                        <span class="val">100%</span>
+                        <span class="lbl">Tested Pure</span>
+                    </div>
+                </div>
+                <div class="floating-card c2">
+                    <div class="card-icon">💎</div>
+                    <div class="card-info">
+                        <span class="val">Premium</span>
+                        <span class="lbl">Export Grade</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-grid">
+                <div class="section-image" id="about-image-container">
+                    <!-- Image will be injected via JS or CSS -->
+                    <div class="image-stack">
+                        <div class="img-main animate-on-scroll" id="main-about-img"></div>
+                        <div class="img-sub animate-on-scroll" id="sub-about-img"></div>
+                    </div>
+                    <div class="experience-badge animate-on-scroll">
+                        <span class="years">25+</span>
+                        <span class="text">Years of <br>Excellence</span>
+                    </div>
+                </div>
+                <div class="section-content">
+                    <span class="subtitle">Our Commitment</span>
+                    <h2 class="section-title">Nurturing the Future <br>of Agriculture</h2>
+                    <div class="about-tabs">
+                        <div class="tab-btns">
+                            <button class="tab-btn active" data-tab="mission">Our Mission</button>
+                            <button class="tab-btn" data-tab="vision">Our Vision</button>
+                            <button class="tab-btn urdu" data-tab="urdu" lang="ur" dir="rtl">ہمارا مشن</button>
+                        </div>
+                        <div class="tab-content active" id="mission">
+                            <p>At Hub Agro Chemicals, we develop practical agrochemicals and crop inputs focused on
+                                local
+                                performance, safety, and farmer value. We believe in providing solutions that respect
+                                the soil while maximizing yield.</p>
+                            <ul class="feature-list">
+                                <li><span>✓</span> Advanced Nutrient Management</li>
+                                <li><span>✓</span> Targeted Pest Control</li>
+                                <li><span>✓</span> Sustainable Soil Health</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="vision">
+                            <p>Our vision is to lead the transformation of local agriculture into a high-productivity,
+                                sustainable sector through innovative chemistry and farmer education.</p>
+                        </div>
+                        <div class="tab-content urdu" id="urdu" lang="ur" dir="rtl">
+                            <p>حب ایگرو کمیکلز میں، ہم کسانوں کے لیے مقامی سطح پر موثر اور محفوظ حل تیار کرتے ہیں۔ ہماری
+                                توجہ عملی نتائج، لاگت کی کفایت اور زمین کی لمبی عمر پر ہے۔</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section (Bento Style) -->
+    <section class="section stats-bento">
+        <div class="container">
+            <div class="bento-grid">
+                <div class="bento-item item-large animate-on-scroll">
+                    <div class="bento-content">
+                        <h3>Our Impact</h3>
+                        <p>Empowering farmers across the region with science-backed solutions.</p>
+                        <div class="bento-stat">
+                            <span class="number" data-target="1000">0</span>+
+                            <span class="label">Trusted Farmers</span>
+                        </div>
+                    </div>
+                    <div class="bento-bg" id="impact-bg"></div>
+                </div>
+                <div class="bento-item item-small animate-on-scroll">
+                    <div class="bento-content">
+                        <div class="bento-stat">
+                            <span class="number" data-target="77">0</span>
+                            <span class="label">Total Products</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bento-item item-small animate-on-scroll">
+                    <div class="bento-content">
+                        <div class="bento-stat">
+                            <span class="number" data-target="100">0</span>%
+                            <span class="label">Quality Assurance</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bento-item item-medium animate-on-scroll">
+                    <div class="bento-content">
+                        <h3>5 Main Categories</h3>
+                        <div class="category-pills">
+                            <span>Insecticides</span>
+                            <span>Herbicides</span>
+                            <span>Fungicides</span>
+                            <span>Nutrients</span>
+                            <span>Seeds</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CEO Section -->
+    <section class="section ceo-quote-section">
+        <div class="container">
+            <div class="quote-card animate-on-scroll">
+                <div class="quote-icon">“</div>
+                <div class="ceo-flex">
+                    <div class="ceo-avatar" id="ceo-img"></div>
+                    <div class="ceo-message">
+                        <blockquote class="quote-text">
+                            Hub Agro Chemicals focuses on locally-relevant solutions that increase farm productivity
+                            while
+                            reducing unnecessary costs. We build practical products supported by on-field advice.
+                        </blockquote>
+                        <blockquote class="quote-text-urdu urdu" lang="ur" dir="rtl">
+                            ہم ہر کسان کو مناسب قیمت پر اعلیٰ معیار کے فصل تحفظ کے حل فراہم کرنے پر یقین رکھتے ہیں۔
+                        </blockquote>
+                        <div class="ceo-info">
+                            <span class="name">Managing Director</span>
+                            <span class="title">Hub Agro Chemicals</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section products-section">
+        <div class="container">
+            <div class="section-header center">
+                <span class="subtitle">Our Portfolio</span>
+                <h2 class="section-title">Tailored Agrochemical Solutions</h2>
+
+                <div class="search-wrap animate-on-scroll">
+                    <div class="search-box">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" id="productSearch" placeholder="Search by name... (e.g. Mega Fall)">
+                    </div>
+                </div>
+
+                <div class="filter-wrap animate-on-scroll">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="Insecticide">Insecticides</button>
+                    <button class="filter-btn" data-filter="Herbicide">Herbicides</button>
+                    <button class="filter-btn" data-filter="Fungicide">Fungicides</button>
+                    <button class="filter-btn" data-filter="Nutrients">Nutrients</button>
+                    <button class="filter-btn" data-filter="Seed">Seeds</button>
+                </div>
+            </div>
+
+            <div class="product-grid" id="productGrid">
+                <!-- Products will be injected here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Innovation Section -->
+    <section id="innovation" class="section innovation-section">
+        <div class="container">
+            <div class="section-grid">
+                <div class="section-content animate-on-scroll">
+                    <span class="subtitle">Future of Farming</span>
+                    <h2 class="section-title">Molecular Precision <br>for Local Crops</h2>
+                    <p>Our R&D department focuses on developing high-efficiency molecules that target specific plant
+                        needs while minimizing environmental impact. We believe in "Growth without Compromise".</p>
+                    <div class="feature-list">
+                        <li><span>🧪</span> Advanced Synthesis</li>
+                        <li><span>🧬</span> Bio-Active Formulations</li>
+                        <li><span>🛰️</span> Data-Driven Application</li>
+                    </div>
+                </div>
+                <div class="section-image animate-on-scroll">
+                    <div class="innovation-stack">
+                        <div class="img-innov id1"></div>
+                        <div class="img-innov id2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info animate-on-scroll">
+                    <span class="subtitle">Get In Touch</span>
+                    <h2 class="section-title">Let's Secure Your <br>Harvest Together</h2>
+                    <p>Our experts are ready to help you choose the right products for your soil.</p>
+
+                    <div class="info-items">
+                        <div class="info-item">
+                            <div class="icon">📍</div>
+                            <div class="text">
+                                <strong>Corporate Office</strong>
+                                <p>Agricultural Solutions Division, Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="icon">📞</div>
+                            <div class="text">
+                                <strong>Support Line</strong>
+                                <p>0331-2407096 (Mon–Sat, 10 AM – 6 PM)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/923312407096" class="btn btn-primary whatsapp-cta">
+                        Chat on WhatsApp
+                    </a>
+                </div>
+                <div class="contact-form-wrap animate-on-scroll">
+                    <div class="form-header">
+                        <h3>Technical Consultation</h3>
+                        <p>Fill in the details for expert agro-chemical advice.</p>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-row">
+                            <div class="input-group">
+                                <span class="input-icon">👤</span>
+                                <input type="text" placeholder="Full Name" required>
+                            </div>
+                            <div class="input-group">
+                                <span class="input-icon">✉️</span>
+                                <input type="email" placeholder="Email Address" required>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <span class="input-icon">🔍</span>
+                            <select required>
+                                <option value="" disabled selected>Select Area of Interest</option>
+                                <option value="insecticides">Insecticides & Pest Control</option>
+                                <option value="nutrients">Crop Nutrients & Fertilizers</option>
+                                <option value="herbicides">Weed Management</option>
+                                <option value="seeds">Premium Seed Solutions</option>
+                                <option value="other">General Technical Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <span class="input-icon">📝</span>
+                            <textarea placeholder="Describe your crop challenge or inquiry..." rows="4"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">
+                            <span>Submit Technical Request</span>
+                            <i class="arrow-right">→</i>
+                        </button>
+                        <p class="form-note">Data encrypted & protected by Hub Security Standards</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="brand">
+                        <span class="logo-icon">H</span>
+                        <span class="logo-text">Hub Agro<span> Chemicals</span></span>
+                    </div>
+                    <p>Modern solutions for local challenges. Empowering agriculture through innovation.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#about">About Us</a>
+                    <a href="#products">Products</a>
+                    <a href="#innovation">Innovation</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Products Portfolio</h4>
+                    <a href="#products">Insecticides</a>
+                    <a href="#products">Nutrients</a>
+                    <a href="#products">Seeds</a>
+                    <a href="#products">Herbicides</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Hub Agro Chemicals. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/923312407096" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+
+    <!-- Product Modal -->
+    <div id="productModal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Modal content injected here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
